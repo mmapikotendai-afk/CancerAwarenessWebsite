@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hope & Strength</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="pink-ribbon">🎗️</span>
+                <span>Hope & Strength</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="awareness.html">Awareness</a></li>
+                <li><a href="symptoms.html">Symptoms</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="help.html">Healthcare Facilities</a></li>
+                <li><a href="ZimStates.html">Zimbabwe Stats</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>Get Involved</h1>
+            <p>Join us in making a difference</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-wrapper">
+                    <div class="contact-form-section fade-in">
+                        <h2>Send Us a Message</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="support">Support & Resources</option>
+                                    <option value="volunteer">Volunteering</option>
+                                    <option value="donation">Donation</option>
+                                    <option value="event">Events</option>
+                                    <option value="general">General Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <p>Thank you for your message! We'll get back to you soon.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-section fade-in">
+                        <h2>Contact Information</h2>
+                        <div class="contact-info">
+                            <div class="info-item">
+                                <div class="info-icon">📧</div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>info@hopeandstrength.org</p>
+                                    <p>support@hopeandstrength.org</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon">📞</div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>1-800-HOPE-123</p>
+                                    <p>Mon-Fri: 9AM-6PM EST</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon">📍</div>
+                                <div>
+                                    <h4>Address</h4>
+                                    <p>123 Hope Street</p>
+                                    <p>New York, NY 10001</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="volunteer-section">
+                            <h3>Volunteer With Us</h3>
+                            <p>Join our community of volunteers and make a meaningful impact. We have opportunities for:</p>
+                            <ul>
+                                <li>Event organization</li>
+                                <li>Community outreach</li>
+                                <li>Support group facilitation</li>
+                                <li>Administrative support</li>
+                                <li>Fundraising</li>
+                            </ul>
+                            <a href="#contactForm" class="btn btn-secondary">Apply to Volunteer</a>
+                        </div>
+
+                        <div class="donate-section">
+                            <h3>Make a Donation</h3>
+                            <p>Your contribution helps us provide support, education, and resources to those affected by breast cancer.</p>
+                            <div class="donate-amounts">
+                                <button class="donate-btn">$25</button>
+                                <button class="donate-btn">$50</button>
+                                <button class="donate-btn">$100</button>
+                                <button class="donate-btn">$250</button>
+                            </div>
+                            <a href="#contactForm" class="btn btn-cta">Donate Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hope & Strength</h3>
+                    <p>Dedicated to raising awareness and supporting those affected by breast cancer.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="awareness.html">Awareness</a></li>
+                        <li><a href="symptoms.html">Symptoms</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Screening Guidelines</a></li>
+                        <li><a href="#">Treatment Options</a></li>
+                        <li><a href="#">Support Groups</a></li>
+                        <li><a href="#">Research</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@hopeandstrength.org</p>
+                    <p>Phone: 1-800-HOPE-123</p>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hope & Strength. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JAVASCRIPT/script.js"></script>
+</body>
+</html>
+
